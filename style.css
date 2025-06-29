@@ -1,0 +1,159 @@
+a {
+    color: black;
+}
+
+body {
+    margin: 0;
+    background-color: seashell;
+  }
+
+
+h1 {
+    color:#5b4830;
+    font-size: 40px;
+    text-align: center;
+    width: 450px;
+    margin-top: 5px;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.preconfig {
+    white-space: pre-line;
+    text-align: center;
+    font-family: serif;
+}
+
+
+#fundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://wallpapers.com/images/hd/mechanical-engineering-p1n0nkmfz2yuoqtf.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: grayscale(60%);
+    opacity: 1;
+    transition: opacity 1.5s ease;
+    z-index: -1;
+  }
+
+#resumo {
+    font-size: 25px; 
+    text-align: center;
+}
+
+#buttonConfig0 {
+    padding: 70px 70px;
+    font-size: 70px;
+    cursor: pointer;
+    background-color: transparent; 
+    color: white;
+    border: none;
+    font-family: 'IBM Plex Mono';
+    margin-top: 170px;
+    text-shadow:
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
+    background-color: black;
+    border-radius: 200px;
+}
+
+#buttonConfig0:hover {
+    background-color: transparent;
+    cursor: grabbing;
+    transform: scale(1.05);
+    background-color: black;
+    border-radius: 200px;
+}
+
+#bibliografia, #regras {
+    margin-bottom: 55px;
+}
+
+.botao1config {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: transparent; 
+    color: black;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.botao2config {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    background: white;;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.botao2config1 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    background: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.botao2config:hover,
+.botao2config1:hover {
+    transform: scale(1.07);
+    background:seashell;
+}
+
+.integrantes {
+    margin-top: 130px;
+    margin-right: 70px;
+    bottom: 20px;
+    font-size: 14px;
+    color: black;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-left: 80%;     
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+
+.textoCenter {
+    text-align: center;
+}
+
+.divisoria {
+    display: none;
+}
+
+.imgconfig {
+    height: 300px;
+    border-radius: 11px;
+}
+
+button:hover {
+    background-color: antiquewhite;
+    cursor: grabbing;
+    transform: scale(1.05);
+}
+
