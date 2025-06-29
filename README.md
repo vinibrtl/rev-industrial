@@ -1,2 +1,2 @@
 # rev-industrial
-Trabalho de história sobre os veiculos na revolução industrial.
+Trabalho de geografia sobre os veiculos na revolução industrial.
